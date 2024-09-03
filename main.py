@@ -59,7 +59,9 @@ def get_suggestions():
 
 # Flask API
 
-app = Flask(__name__)
+application = Flask(__name__)
+
+app = application
 
 @app.route("/")
 @app.route("/home")
